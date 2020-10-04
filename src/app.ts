@@ -1,7 +1,6 @@
 require('dotenv').config();
 import express from 'express';
 import helmet from 'helmet';
-import jwt from 'jsonwebtoken';
 import { createConnection } from 'typeorm';
 import { router } from './Routes';
 
